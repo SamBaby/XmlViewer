@@ -315,10 +315,6 @@ public class XmlViewerandEditor {
 		
 	}
 	
-	//transform the tree into a xml
-	public void createXml(Tree tr) {
-		
-	}
 	
 	public boolean ifTextNode(Node node) {
 		if(node.hasChildNodes() && node.getFirstChild().getTextContent().trim().length() >0) {
