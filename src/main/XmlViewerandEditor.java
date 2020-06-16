@@ -304,7 +304,7 @@ public class XmlViewerandEditor {
 		}
 		
 		for(int i = 0; i <node.getChildNodes().getLength(); i++) {
-			if(node.getChildNodes().item(i).getNodeName() != "#text")
+			if(node.getChildNodes().item(i).getNodeType() == Node.ELEMENT_NODE)
 			{
 				TreeItem item1 = new TreeItem(item0,SWT.NULL);
 				item1.setText(node.getChildNodes().item(i).getNodeName());
