@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/home/sam/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64_3.113.0.v20191204-0601.jar"/>
 	<classpathentry kind="lib" path="/home/sam/eclipse/plugins/org.eclipse.jface.source_3.18.0.v20191122-2109.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SWT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
